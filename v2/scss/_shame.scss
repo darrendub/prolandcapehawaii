@@ -1,0 +1,44 @@
+/// Slightly lighten a color
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+/// Slightly darken a color
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+
+.success-light {
+  background-color: tint($success, 85%);
+}
+
+header {
+
+}
+
+.stripe {
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(150deg,#79B865 15%,#61B461 70%,#6BA56A 94%);
+    position: absolute;
+}
+
+.text-shadow {
+  text-shadopw: 1px 1px 1px #000;
+}
+.text-700 {
+  font-weight: 700;
+}
+
+.circle-1 {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(150deg,#61B461 15%, #6BA56A 94%);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.img-100 {
+  width: 100%;
+}
+
