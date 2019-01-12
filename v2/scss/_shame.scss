@@ -12,6 +12,25 @@ header {
   background: linear-gradient(150deg,#79B865 15%,#61B461 70%,#6BA56A 94%);
 }
 
-.text-700 {
-  font-weight: 700;
+.hero-img {
+	max-width: 600px;
+	min-width: 300px;
+	width: 100%;
+	margin-bottom: ($spacer * -3)
+}
+
+.service-img {
+	max-width: 300px;
+	min-width: 200px;
+	width: 100%;
+	// width: 100%;
+}
+
+@include media-breakpoint-down(sm) {
+	.card {
+		margin-bottom: $spacer;
+	}
+}
+.bg-blue-light {
+	background-color: tint($blue, 90%)
 }

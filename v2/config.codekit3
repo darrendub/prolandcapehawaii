@@ -22,9 +22,31 @@
 		},
 	"/assets/img/Custom.png": {
 		"ft": 32768,
-		"iS": 62898,
+		"iS": 66321,
 		"oA": 0,
 		"oAP": "/assets/img/Custom.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/customer-1.png": {
+		"ft": 32768,
+		"iS": 13942,
+		"oA": 0,
+		"oAP": "/assets/img/customer-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/customer-2.png": {
+		"ft": 32768,
+		"iS": 12435,
+		"oA": 0,
+		"oAP": "/assets/img/customer-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -53,77 +75,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/plant.png": {
-		"ft": 32768,
-		"iS": 324626,
-		"oA": 0,
-		"oAP": "/assets/img/plant.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/img/Pro.png": {
 		"ft": 32768,
 		"iS": 28348,
 		"oA": 0,
 		"oAP": "/assets/img/Pro.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/services-installation.png": {
-		"ft": 32768,
-		"iS": 59406,
-		"oA": 0,
-		"oAP": "/assets/img/services-installation.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/services-landscaping.png": {
-		"ft": 32768,
-		"iS": 71746,
-		"oA": 0,
-		"oAP": "/assets/img/services-landscaping.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/services-masonry.png": {
-		"ft": 32768,
-		"iS": 37450,
-		"oA": 0,
-		"oAP": "/assets/img/services-masonry.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/thumb-2x.png": {
-		"ft": 32768,
-		"iS": 90038,
-		"oA": 0,
-		"oAP": "/assets/img/thumb-2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/thumbs.png": {
-		"ft": 32768,
-		"iS": 31014,
-		"oA": 0,
-		"oAP": "/assets/img/thumbs.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1319,6 +1275,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/work.html",
+		"oF": 0
 		}
 	},
 "hooks": [
