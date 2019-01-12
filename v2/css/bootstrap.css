@@ -45,7 +45,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 @-ms-viewport {
   width: device-width; }
@@ -342,9 +342,13 @@ h6, .h6 {
   font-weight: 300;
   line-height: 1.2; }
 
+@media (max-width: 991.98px) {
+  .display-3 {
+    font-size: 2rem; } }
+
 .display-4 {
-  font-size: 3.5rem;
-  font-weight: 300;
+  font-size: 2rem;
+  font-weight: 700;
   line-height: 1.2; }
 
 .display-5 {
@@ -357,6 +361,12 @@ h6, .h6 {
 
 .text-plex {
   font-family: 'IBM Plex Sans', sans-serif; }
+
+.text-700 {
+  font-weight: 700; }
+
+.text-gray-900 {
+  color: #212529; }
 
 hr {
   margin-top: 1rem;
@@ -2753,7 +2763,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem; }
+  padding: 1rem 1rem; }
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
@@ -2822,8 +2832,8 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0.8125rem;
+  padding-bottom: 0.8125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -2846,8 +2856,8 @@ input[type="button"].btn-block {
 
 .navbar-text {
   display: inline-block;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem; }
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
 .navbar-collapse {
   flex-basis: 100%;
@@ -6326,5 +6336,20 @@ a.text-dark:hover, a.text-dark:focus {
 header {
   background: linear-gradient(150deg, #79B865 15%, #61B461 70%, #6BA56A 94%); }
 
-.text-700 {
-  font-weight: 700; }
+.hero-img {
+  max-width: 600px;
+  min-width: 300px;
+  width: 100%;
+  margin-bottom: -3rem; }
+
+.service-img {
+  max-width: 300px;
+  min-width: 200px;
+  width: 100%; }
+
+@media (max-width: 767.98px) {
+  .card {
+    margin-bottom: 1rem; } }
+
+.bg-blue-light {
+  background-color: #e6f2ff; }
